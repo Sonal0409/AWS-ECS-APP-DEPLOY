@@ -1,11 +1,11 @@
-# Workflow: Builds images, packages, and deploys app to AWS ECS
+# Workflow: Builds images, packages, and deploys app to AWS ECS.....
 name: Deploy Application
 
 # Trigger: Runs on any push to main branch
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy-app:
